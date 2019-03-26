@@ -10,6 +10,7 @@ class CharStackImpl implements CharStack {
     z = new char[0];
     }
 
+
     @Override
     public void push(char c) {
         char[]p = new char[z.length + 1];
@@ -38,5 +39,6 @@ class CharStackImpl implements CharStack {
     public int size() {
         return z.length;
     }
+
 
 }
